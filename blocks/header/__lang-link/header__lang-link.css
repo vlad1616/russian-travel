@@ -1,0 +1,11 @@
+.header__lang-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang-link:hover{
+    text-decoration: underline;
+    opacity: .6;
+}
+.header__lang-link:last-of-type{
+    padding-left: 18px;
+}

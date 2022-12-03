@@ -1,0 +1,25 @@
+.place__text{
+    align-items: flex-start;
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    box-sizing: border-box;
+    }
+    @media screen and (max-width:1279px) {
+        .place__text{
+            width: 456px;
+        }
+    }
+    @media screen and (max-width:1023px) {
+        .place__text{
+            width: 352px;
+        }
+    }
+    @media screen and (max-width:767px) {
+        .place__text{
+            width: 288px;
+            margin: 0 auto;
+        }
+    }
