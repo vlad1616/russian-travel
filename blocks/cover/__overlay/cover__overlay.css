@@ -9,6 +9,7 @@
     text-decoration: none;
     object-fit: cover;
     color: #fff;
+    opacity: 0.7;
 }
 
 .cover__overlay:hover:after {
