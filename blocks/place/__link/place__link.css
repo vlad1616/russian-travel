@@ -1,6 +1,6 @@
 .place__link{
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .place__link:hover{
     text-decoration: underline;

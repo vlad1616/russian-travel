@@ -1,5 +1,4 @@
 .places{
-    display: grid;
     grid-template-rows: repeat(5,1fr);
     max-width: 984px;
     padding-top: 92px;
@@ -12,7 +11,7 @@
 }
 @media screen and (max-width:1023px) {
     .places{
-
+padding-top: 88px;
         width: calc(100% - 2 * 24px);
     }
 }
@@ -20,5 +19,6 @@
     .places{
         min-width: 320px;
         width: calc(100% - 2 * 16px);
+        padding-top: 64px;
     }
 }
