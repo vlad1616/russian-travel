@@ -1,6 +1,6 @@
 .cover__overlay{
     padding: 248px 0;
-   max-width: 1184px;
+    max-width: 1184px;
     background-image: url(../../../images/railwaystation.png);
     background-position: center center;
     background-size: cover;
@@ -9,9 +9,18 @@
     text-decoration: none;
     object-fit: cover;
     color: #fff;
-    opacity: 0.7;
 }
 
+.cover__overlay::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(42, 44, 47, 0.3);
+}
 .cover__overlay:hover:after {
     content: "";
     position: absolute;
@@ -21,7 +30,7 @@
     height: 100%;
     z-index: -1;
     background-color: rgba(42, 44, 47, 0.8);
-}
+  }
 @media screen and (max-width:1279px) {
     .cover__overlay{
         padding: 195px 0px;
