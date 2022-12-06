@@ -3,4 +3,9 @@
     text-align: start;
     margin: 0px;
     padding: 33px 0px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
 }
