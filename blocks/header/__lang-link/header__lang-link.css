@@ -1,0 +1,10 @@
+.header__lang-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang-link:hover{
+    opacity: .3;
+}
+.header__lang-link:last-of-type{
+    padding-left: 18px;
+}
