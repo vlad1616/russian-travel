@@ -8,7 +8,6 @@
 @media screen and (max-width:1279px) {
     .cover{
         max-width: 1024px;
-        max-height: 640px;
         object-fit: cover;
     }
 }
